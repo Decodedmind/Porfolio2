@@ -213,7 +213,7 @@ h2{
   position: relative;
   top: .2em;
   left: .2em;
-  height: fit-content;
+  height:auto;
   width: 200px;
   border-radius: 4%;}
 
