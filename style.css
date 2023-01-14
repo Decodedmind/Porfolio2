@@ -298,5 +298,6 @@ font-style:oblique;}
   max-height: 22em;}
   .last{font-size:2em;
   top: 20%;}
-.bio{margin-bottom: 2em;}
+.bio{margin-bottom: 2em;
+padding-bottom: 0;}
 }
