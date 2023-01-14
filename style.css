@@ -238,15 +238,7 @@ height: 5em;
 margin:auto;
 padding: 10px;}
 
-@media only screen and (max-width:1100px){
-  .sectionadj {display:block}
-  .projects{text-size-adjust:auto;}
-  .gif{margin: auto;}
-.small{min-height: 22em;
-  max-height: 22em;}
-  .last{font-size:1em}
 
-}
 .skill{
   display:flex;
 margin-top: 10em;
@@ -293,3 +285,14 @@ text-decoration: none;}
 font-size: 4em;
 color:burlywood;
 font-style:oblique;}
+
+
+@media only screen and (max-width:1100px){
+  .sectionadj {display:block}
+  .projects{text-size-adjust:auto;}
+  .gif{margin: auto;}
+.small{min-height: 22em;
+  max-height: 22em;}
+  .last{font-size:1em}
+
+}
