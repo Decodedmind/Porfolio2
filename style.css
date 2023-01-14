@@ -296,6 +296,7 @@ font-style:oblique;}
   .gif{margin: auto;}
 .small{min-height: 22em;
   max-height: 22em;}
-  .last{font-size:2em}
+  .last{font-size:2em;
+  top: 35%;}
 
 }
