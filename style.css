@@ -52,7 +52,7 @@ html, body {
 .menu-button-container {
   display: none;
   height: 100%;
-  width: 50px;
+  width: 40px;
   cursor: pointer;
   flex-direction: column;
   justify-content: center;
@@ -70,7 +70,7 @@ html, body {
   background-color:#c7b5a1;
   position: absolute;
   height: 4px;
-  width: 55px;
+  width: 40px;
   transition: transform 1.5s cubic-bezier(0.23, 1, 0.32, 1);
   border-radius: 2px;
 }
