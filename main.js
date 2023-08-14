@@ -51,3 +51,29 @@ skillItems.forEach(skill => {
 window.addEventListener("scroll", ()=>{
     document.querySelector("nav").classList.toggle("show-box-shadow",window.scrollY>0)
 })
+
+const nightModeToggle = document.getElementById("night-mode-toggle");
+
+// Function to toggle night mode
+function toggleNightMode() {
+  document.body.classList.toggle("night-mode");
+
+  // Optionally, you can also toggle night mode for specific sections
+  const sectionsToToggle = document.querySelectorAll(".section");
+  sectionsToToggle.forEach((section) => {
+    section.classList.toggle("night-mode");
+  });
+}
+
+// Add event listener to the night mode toggle button
+nightModeToggle.addEventListener("click", toggleNightMode);
+
+
+
+
+
+
+
+
+
+
